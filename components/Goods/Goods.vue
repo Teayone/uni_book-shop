@@ -1,7 +1,13 @@
 <template>
 	<view class="goods">
 		<navigator :url="'/pages/goos/shop?id='+item.id" class="goods-item" v-for="(item,index) in dataList" :key="index">
-			<u--image :showLoading="true" :src="item.cover_url" width="100%" height="200px"></u--image>
+		
+			<!-- #ifndef MP-WEIXIN -->
+				<u--image :showLoading="true" :src="item.cover_url" width="100%" height="200px"></u--image>
+			<!-- #endif -->
+			<!-- #ifdef MP-WEIXIN -->
+				<image :src="item.cover_url" style="width: 100%;height: 200px;"></image>
+			<!-- #endif -->
 			<view class="goods-name">{{item.title}}</view>
 			<view class="goods-info">
 				<text class="price">￥{{item.price}}</text>
