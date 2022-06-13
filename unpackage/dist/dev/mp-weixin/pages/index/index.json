@@ -1,4 +1,10 @@
 {
   "navigationBarTitleText": "首页",
-  "usingComponents": {}
+  "usingComponents": {
+    "u-toast": "/uni_modules/uview-ui/components/u-toast/u-toast",
+    "u-swiper": "/uni_modules/uview-ui/components/u-swiper/u-swiper",
+    "u-sticky": "/uni_modules/uview-ui/components/u-sticky/u-sticky",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "goods": "/components/Goods/Goods"
+  }
 }

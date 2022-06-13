@@ -1,9 +1,14 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/goos/shop",
     "pages/goos/goos",
     "pages/cart/cart",
-    "pages/my/my"
+    "pages/my/my",
+    "pages/auth/login",
+    "pages/auth/register",
+    "pages/my/baseInfo",
+    "pages/my/avator"
   ],
   "subPackages": [],
   "window": {

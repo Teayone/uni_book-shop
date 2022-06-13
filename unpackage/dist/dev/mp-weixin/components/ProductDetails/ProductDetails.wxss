@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+.text_overflow.data-v-6b92f2e4 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.fixd-product.data-v-6b92f2e4 {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 9;
+}
+.product-details.data-v-6b92f2e4 {
+  position: absolute;
+  width: 100%;
+  height: 70vh;
+  background-color: #fff;
+  padding: 20rpx;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+.product-details .goods-info.data-v-6b92f2e4 {
+  display: flex;
+}
+.product-details .goods-info .goods-cover.data-v-6b92f2e4 {
+  width: 100rpx;
+  height: 100rpx;
+  background-color: #ccc;
+}
+.product-details .goods-info .goods-cover image.data-v-6b92f2e4 {
+  width: 100%;
+  height: 100%;
+}
+.product-details .goods-info .goods-price.data-v-6b92f2e4 {
+  font-size: 40rpx;
+  color: #ff3333;
+  font-weight: 600;
+  padding-left: 20rpx;
+}
+.product-details .goods-info .close.data-v-6b92f2e4 {
+  position: absolute;
+  right: 20rpx;
+}
+.product-details .configuration.data-v-6b92f2e4 {
+  overflow-y: scroll;
+  width: 100%;
+}
+.product-details .configuration .package-type .title.data-v-6b92f2e4 {
+  margin-bottom: 20rpx;
+}
+.product-details .configuration .package-type .package-type-item.data-v-6b92f2e4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.product-details .configuration .package-type .package-type-item text.data-v-6b92f2e4 {
+  display: inline-block;
+  border: 1px solid #ccc;
+  font-size: 24rpx;
+  padding: 8rpx 16rpx;
+  border-radius: 50rpx;
+  box-sizing: border-box;
+}
+.product-details .configuration .package-type .package-type-item text.active.data-v-6b92f2e4 {
+  border-color: #ff3333;
+  color: #ff3333;
+}
+.product-details .configuration .purchase-quantity.data-v-6b92f2e4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-details .configuration .purchase-quantity .tips.data-v-6b92f2e4 {
+  font-size: 24rpx;
+  color: #ccc;
+  padding-left: 10rpx;
+  vertical-align: -2rpx;
+  font-weight: 100;
+}
+.product-details .configuration .purchase-quantity .add-sum.data-v-6b92f2e4 {
+  display: flex;
+}
+.product-details .configuration .purchase-quantity .add-sum text.data-v-6b92f2e4 {
+  text-align: center;
+  line-height: 50rpx;
+  width: 50rpx;
+  height: 50rpx;
+  background-color: #f1f1f1;
+}
+.product-details .configuration .purchase-quantity .add-sum text.num.data-v-6b92f2e4 {
+  margin: 0 6rpx;
+  background-color: #f1f1f1;
+  font-size: 24rpx;
+  width: 70rpx;
+}
+.product-details .configuration .purchase-quantity .add-sum text.sum.disable.data-v-6b92f2e4 {
+  background-color: #f8f8f8;
+  color: #ccc;
+}
+.product-details .add-carts-btn.data-v-6b92f2e4 {
+  position: absolute;
+  bottom: 30rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  white-space: nowrap;
+  background-color: #ff3333;
+  color: #fff;
+  padding: 20rpx 240rpx;
+  box-sizing: border-box;
+  border-radius: 100rpx;
+  font-size: 28rpx;
+}
+.bt.data-v-6b92f2e4 {
+  border-bottom: 1px solid #ccc;
+  padding: 20rpx 0;
+}
+

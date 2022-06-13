@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+.text_overflow {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.page-shop .shop-content {
+  padding-bottom: 120rpx;
+}
+.page-shop .shop-content .shop-cover {
+  height: 600rpx;
+}
+.page-shop .shop-content .shop-cover image {
+  width: 100%;
+  height: 100%;
+}
+.page-shop .shop-content .shop-name {
+  font-size: 40rpx;
+  font-weight: 700;
+  padding: 20rpx 40rpx;
+}
+.page-shop .shop-content .shop-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx 30rpx;
+}
+.page-shop .shop-content .shop-price .price {
+  color: #ff3333;
+  font-size: 36rpx;
+  font-weight: 700;
+}
+.page-shop .shop-content .shop-price .sales {
+  color: #999;
+  font-size: 28rpx;
+}
+.page-shop .shop-content .shop-common-content {
+  padding: 20rpx 30rpx;
+  display: flex;
+}
+.page-shop .shop-content .shop-common-content .user-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #999;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.page-shop .shop-content .shop-common-content .user-avatar image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.page-shop .shop-content .shop-common-content .common-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 10rpx;
+}
+.page-shop .shop-content .shop-common-content .common-info .user-name_zan {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-shop .shop-content .shop-common-content .common-info .user-name_zan .username {
+  color: skyblue;
+  font-weight: 600;
+  font-size: 32rpx;
+}
+.page-shop .shop-content .shop-common-content .common-info .user-name_zan .zan {
+  display: flex;
+  align-items: center;
+}
+.page-shop .shop-content .shop-common-content .common-info .user-name_zan .zan .zan-num {
+  font-size: 26rpx;
+  color: #999;
+}
+.page-shop .shop-content .shop-common-content .common-info .common-content {
+  padding: 10rpx 0;
+}
+.page-shop .shop-content .shop-common-content .common-info .second-level_common {
+  margin: 10rpx 0 10rpx 0;
+  background-color: #f0f0f0;
+  border-radius: 10rpx;
+  box-sizing: border-box;
+}
+.page-shop .shop-content .shop-common-content .common-info .second-level_common .second-level_common_user-box {
+  padding: 20rpx;
+  border-bottom: 1px solid #ccc;
+}
+.page-shop .shop-content .shop-common-content .common-info .second-level_common .second-level_common_user-box .second-level_common_username {
+  font-size: 24rpx;
+  color: #999;
+}
+.page-shop .shop-content .shop-common-content .common-info .second-level_common .second-level_common_user-box .second-level_common_content {
+  padding: 10rpx 0;
+  font-size: 28rpx;
+}
+.page-shop .shop-content .shop-common-content .common-info .second-level_common .second-level_common_user-box:last-child {
+  border-bottom: none;
+}
+.page-shop .shop-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120rpx;
+  border-top: 1px solid #ccc;
+  background-color: #fff;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+}
+.page-shop .shop-bar .shop-icon {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page-shop .shop-bar .shop-icon text {
+  font-size: 28rpx;
+}
+.page-shop .shop-bar .shop-icon text.icon-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #ff3333;
+  width: 30rpx;
+  height: 30rpx;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20rpx;
+  padding: 5rpx;
+  box-sizing: border-box;
+}
+.page-shop .shop-bar .shop-btn {
+  padding: 20rpx 40rpx;
+  font-size: 28rpx;
+  border-radius: 50rpx;
+}
+.page-shop .shop-bar .shop-btn.shop-addcart {
+  background-color: #ea3715;
+  color: #ffe7d3;
+}
+.page-shop .shop-bar .shop-btn.shop-purchase {
+  background-color: #ff6f03;
+  color: #fff;
+}
+
